@@ -7,6 +7,7 @@ from http://www.cbs.gov.il/reader/pirsum_madad/indices_eng.xml
 
 <code>
 require 'madad'
+
 value = Madad.latest_value
 </code>
 
