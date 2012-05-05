@@ -1,0 +1,436 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://www.cbs.gov.il/reader/pirsum_madad/indices_eng.xml
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      accept:
+      - ! '*/*'
+      user-agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      date:
+      - Sat, 05 May 2012 09:27:28 GMT
+      server:
+      - /0.0.0 ( )
+      content-length:
+      - '53836'
+      content-type:
+      - text/xml
+    body:
+      encoding: US-ASCII
+      string: ! "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<indices
+        xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:noNamespaceSchemaLocation=\"http://www.cbs.gov.il/reader/pirsum_madad/indices_base_eng.xsd\">\n\n\n\n\n\n\n\n\n\t\n\n\t\t\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\n\t\n\t\n\t\n\t\n\t\n\t\n\n\t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n
+        \n\n\r \n\n\r\n \n\n\r \n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n \n\n\n
+        \n\n\n\n\n\n\n\n\n\n\n\n\t\n\n\n\n\n\t\n\n\n\n\n\n\n \n\n\t\t\n\t\t\n\t\n\t\n\t\n\t\n\t\n\n\t\n\t\n\t\n\n<date
+        year=\" 2012 \" month=\"March\">\n\n\n\n\n\n\n\n\n\n\t  \t\n\n\t\n\t\n\t\n\n<code
+        code=\"120010\"> \n\t\n\t\n\t\n\n\n\t\n\n\t\n\t\n\n\n\n\n\n\t\n\t\n\t\n\t\n\n\t\n\n\t\n\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\n<name>\t\n\tConsumer
+        Price Index - General                                                                                                                                                                       \n</name>\n\n\n\t\n\t\t\n\t\n\n\n\t\n
+        \     \t \n\t  \n\t<percent>\n\t\t0.4 \n\t</percent>\n\n\t\n\t\n\t\n\t\n\n\n\n\n\n\n\n\t\t\n\t\n\n\n\n\n
+        \  \n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\n\t\t\t\t\t\n\t\n\t\t<index
+        base=\"Average 2010 &#x200E; \">\n\t\t\t104.4\n\t\t</index>\n\t\n  \t\t\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 2008\" chainingCoefficient=\"1.061\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t110.7684\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 2006\" chainingCoefficient=\"1.051\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t116.4175884\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 2002\" chainingCoefficient=\"1.038\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t120.8414568\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 2000\" chainingCoefficient=\"1.068\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t129.0586758\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 1998\" chainingCoefficient=\"1.064\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t137.3184311\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 1993\" chainingCoefficient=\"1.581\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t217.1004395\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 1987\" chainingCoefficient=\"2.421\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t525.6001641\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 1985\" chainingCoefficient=\"1.775\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t932.9402913\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t
+        \ \t\t\n\t\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 1980\" chainingCoefficient=\"225\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t209911.5655321\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 1976\" chainingCoefficient=\"8.349\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t1752551.6606276\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 1969\" chainingCoefficient=\"4.112\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t7206492.4285008\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 1964\" chainingCoefficient=\"1.237\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t8914431.1340555\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"January 1959\" chainingCoefficient=\"1.347\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t12007738.7375728\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"September 1951\" chainingCoefficient=\"2.753\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t33057304.7445378\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t\n</code>\n\n\n\n\n\t
+        \ \t\n\n\t\n\t\n\t\n\n<code code=\"120020\"> \n\t\n\t\n\t\n\n\n\t\n\n\t\n\t\n\n\n\n\n\n\t\n\t\n\t\n\t\n\n\t\n\n\t\n\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\n<name>\t\n\tThe
+        index, excluding vegetables and fruit                                                                                                                                                            \n</name>\n\n\n\t\n\t\t\n\t\n\n\n\t\n
+        \     \t \n\t  \n\t<percent>\n\t\t0.5 \n\t</percent>\n\n\t\n\t\n\t\n\t\n\n\n\n\n\n\n\n\t\t\n\t\n\n\n\n\n
+        \  \n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\n\t\t\t\t\t\n\t\n\t\t<index
+        base=\"Average 2010 &#x200E; \">\n\t\t\t104.6\n\t\t</index>\n\t\n  \t\t\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 2008\" chainingCoefficient=\"1.062\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t111.0852\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 2006\" chainingCoefficient=\"1.046\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t116.1951192\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 2002\" chainingCoefficient=\"1.037\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t120.4943386\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 2000\" chainingCoefficient=\"1.068\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t128.6879536\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 1998\" chainingCoefficient=\"1.064\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t136.9239827\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 1993\" chainingCoefficient=\"1.587\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t217.2983605\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 1987\" chainingCoefficient=\"2.474\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t537.5961439\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 1985\" chainingCoefficient=\"1.749\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t940.2556556\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t
+        \ \t\t\n\t\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 1980\" chainingCoefficient=\"225.9\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t212403.7526045\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t\n</code>\n\n\n\n\n\t
+        \ \t\n\n\t\n\t\n\t\n\n<code code=\"110040\"> \n\t\n\t\n\t\n\n\n\t\n\n\t\n\t\n\n\n\n\n\n\t\n\t\n\t\n\t\n\n\t\n\n\t\n\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\n<name>\t\n\tThe
+        index, excluding housing                                                                                                                                                                         \n</name>\n\n\n\t\n\t\t\n\t\n\n\n\t\n
+        \     \t \n\t  \n\t<percent>\n\t\t0.4 \n\t</percent>\n\n\t\n\t\n\t\n\t\n\n\n\n\n\n\n\n\t\t\n\t\n\n\n\n\n
+        \  \n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\n\t\t\t\t\t\n\t\n\t\t<index
+        base=\"Average 2010 &#x200E; \">\n\t\t\t103.2\n\t\t</index>\n\t\n  \t\t\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 2008\" chainingCoefficient=\"1.030\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t106.296\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 2006\" chainingCoefficient=\"1.062\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t112.886352\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 2002\" chainingCoefficient=\"1.068\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t120.5626239\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 2000\" chainingCoefficient=\"1.045\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t125.987942\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 1998\" chainingCoefficient=\"1.080\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t136.0669774\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 1993\" chainingCoefficient=\"1.493\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t203.1479972\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 1987\" chainingCoefficient=\"2.184\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t443.6752259\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 1985\" chainingCoefficient=\"1.841\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t816.8060909\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t
+        \ \t\t\n\t\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 1980\" chainingCoefficient=\"214.9\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t175531.6289415\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t\n</code>\n\n\n\n\n\t
+        \ \t\n\n\t\n\t\n\t\n\n<code code=\"120030\"> \n\t\n\t\n\t\n\n\n\t\n\n\t\n\t\n\n\n\n\n\n\t\n\t\n\t\n\t\n\n\t\n\n\t\n\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\n<name>\t\n\tThe
+        index, excluding vegetables, fruit and housing                                                                                                                                                \n</name>\n\n\n\t\n\t\t\n\t\n\n\n\t\n
+        \     \t \n\t  \n\t<percent>\n\t\t0.4 \n\t</percent>\n\n\t\n\t\n\t\n\t\n\n\n\n\n\n\n\n\t\t\n\t\n\n\n\n\n
+        \  \n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\n\t\t\t\t\t\n\t\n\t\t<index
+        base=\"Average 2010 &#x200E; \">\n\t\t\t103.3\n\t\t</index>\n\t\n  \t\t\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 2008\" chainingCoefficient=\"1.029\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t106.2957\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 2006\" chainingCoefficient=\"1.055\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t112.1419635\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 2002\" chainingCoefficient=\"1.069\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t119.879759\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 2000\" chainingCoefficient=\"1.044\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t125.1544684\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 1998\" chainingCoefficient=\"1.081\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t135.2919803\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 1993\" chainingCoefficient=\"1.496\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t202.3968026\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 1987\" chainingCoefficient=\"2.229\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t451.1424729\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 1985\" chainingCoefficient=\"1.811\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t817.0190184\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t
+        \ \t\t\n\t\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 1980\" chainingCoefficient=\"215.2\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t175822.4927595\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t\n</code>\n\n\n\n\n\t
+        \ \t\n\n\t\n\t\n\t\n\n<code code=\"110045\"> \n\t\n\t\n\t\n\n\n\t\n\n\t\n\t\n\n\n\n\n\n\t\n\t\n\t\n\t\n\n\t\n\n\t\n\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\n<name>\t\n\tThe
+        index, excluding energy                                                                                                                                                               \n</name>\n\n\n\t\n\t\t\n\t\n\n\n\t\n
+        \     \t \n\t  \n\t<percent>\n\t\t0.2 \n\t</percent>\n\n\t\n\t\n\t\n\t\n\n\n\n\n\n\n\n\t\t\n\t\n\n\n\n\n
+        \  \n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\n\t\t\t\t\t\n\t\n\t\t<index
+        base=\"Average 2010 &#x200E; \">\n\t\t\t103.5\n\t\t</index>\n\t\n  \t\t\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 2008\" chainingCoefficient=\"1.067\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t110.4345\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 2006\" chainingCoefficient=\"1.046\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t115.514487\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t\n</code>\n\n\n\n\n\t
+        \ \t\n\n\t\n\t\n\t\n\n<code code=\"170010\"> \n\t\n\t\n\t\n\n\n\t\n\n\t\n\t\n\n\n\n\n\n\t\n\t\n\t\n\t\n\n\t\n\n\t\n\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\n<name>\t\n\tPrice
+        index of manufacturing output - general                                                                                                                                                     \n</name>\n\n\n\t\n\t\t\n\t\n\n\n\t\n
+        \     \t \n\t  \n\t<percent>\n\t\t2.5 \n\t</percent>\n\n\t\n\t\n\t\n\t\n\n\n\n\n\n\n\n\t\t\n\t\n\n\n\n\n
+        \  \n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\n\t\t\t\t\t\n\t\n\t\t<index
+        base=\"Average 2005 &#x200E; \">\n\t\t\t131.5\n\t\t</index>\n\t\n  \t\t\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 1994\" chainingCoefficient=\"1.791\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t235.5165\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t\n</code>\n\n\n\n\n\t
+        \ \t\n\n\t\n\t\n\t\n\n<code code=\"170020\"> \n\t\n\t\n\t\n\n\n\t\n\n\t\n\t\n\n\n\n\n\n\t\n\t\n\t\n\t\n\n\t\n\n\t\n\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\n<name>\t\n\tThe
+        index, excluding fuel                                                                                                                                                                            \n</name>\n\n\n\t\n\t\t\n\t\n\n\n\t\n
+        \     \t \n\t  \n\t<percent>\n\t\t1.1 \n\t</percent>\n\n\t\n\t\n\t\n\t\n\n\n\n\n\n\n\n\t\t\n\t\n\n\n\n\n
+        \  \n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\n\t\t\t\t\t\n\t\n\t\t<index
+        base=\"Average 2005 &#x200E; \">\n\t\t\t124.1\n\t\t</index>\n\t\n  \t\t\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 1994\" chainingCoefficient=\"1.706\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t211.7146\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 1988\" chainingCoefficient=\"2.015\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t426.604919\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t
+        \ \t\t\n\t\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 1977\" chainingCoefficient=\"2910.1\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t1241462.9747819\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t\n</code>\n\n\n\n\n\t
+        \ \t\n\n\t\n\t\n\t\n\n<code code=\"200010\"> \n\t\n\t\n\t\n\n\n\t\n\n\t\n\t\n\n\n\n\n\n\t\n\t\n\t\n\t\n\n\t\n\n\t\n\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\n<name>\t\n\tPrice
+        index of input in residential building - general                                                                                                                                            \n</name>\n\n\n\t\n\t\t\n\t\n\n\n\t\n
+        \     \t \n\t  \n\t<percent>\n\t\t0.3 \n\t</percent>\n\n\t\n\t\n\t\n\t\n\n\n\n\n\n\n\n\t\t\n\t\n\n\n\n\n
+        \  \n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\n\t\t\t\t\t\n\t\n\t\t<index
+        base=\"July 2011 &#x200E; \">\n\t\t\t101.9\n\t\t</index>\n\t\n  \t\t\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"January 2004\" chainingCoefficient=\"1.323\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t134.8137\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"January 1992\" chainingCoefficient=\"2.048\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t276.0984576\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"October 1983\" chainingCoefficient=\"49.091\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t13553.949382\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"April 1975\" chainingCoefficient=\"176.512\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t2392434.7133229\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 1968\" chainingCoefficient=\"3.434\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t8215620.8055509\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"January 1964\" chainingCoefficient=\"1.259\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t10343466.5941886\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"July 1950\" chainingCoefficient=\"6.680\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t69094356.84918\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t\n</code>\n\n\n\n\n\t
+        \ \t\n\n\t\n\t\n\t\n\n<code code=\"800010\"> \n\t\n\t\n\t\n\n\n\t\n\n\t\n\t\n\n\n\n\n\n\t\n\t\n\t\n\t\n\n\t\n\n\t\n\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\n<name>\t\n\tPrice
+        Index of Input in Commercial and Office Building - General                                                                                                                                     \n</name>\n\n\n\t\n\t\t\n\t\n\n\n\t\n
+        \     \t \n\t  \n\t<percent>\n\t\t0.3 \n\t</percent>\n\n\t\n\t\n\t\n\t\n\n\n\n\n\n\n\n\t\t\n\t\n\n\n\n\n
+        \  \n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\n\t\t\t\t\t\n\t\n\t\t<index
+        base=\"January 2012 &#x200E; \">\n\t\t\t100.6\n\t\t</index>\n\t\n  \t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t\n</code>\n\n\n\n\n\t
+        \ \t\n\n\t\n\t\n\t\n\n<code code=\"240010\"> \n\t\n\t\n\t\n\n\n\t\n\n\t\n\t\n\n\n\n\n\n\t\n\t\n\t\n\t\n\n\t\n\n\t\n\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\n<name>\t\n\tPaving
+        and bridging Input price index - general                                                                                                                                                      \n</name>\n\n\n\t\n\t\t\n\t\n\n\n\t\n
+        \     \t \n\t  \n\t<percent>\n\t\t0.6 \n\t</percent>\n\n\t\n\t\n\t\n\t\n\n\n\n\n\n\n\n\t\t\n\t\n\n\n\n\n
+        \  \n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\n\t\t\t\t\t\n\t\n\t\t<index
+        base=\"January 2010 &#x200E; \">\n\t\t\t113.8\n\t\t</index>\n\t\n  \t\t\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"January 1996\" chainingCoefficient=\"2.262\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t257.4156\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t
+        \ \t\t\n\t\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"May 1981\" chainingCoefficient=\"468.39\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t120570.892884\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 1972\" chainingCoefficient=\"82.016\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t9888742.3507741\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"January 1966\" chainingCoefficient=\"1.542\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t15248440.7048937\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t\n</code>\n\n\n\n\n\t
+        \ \t\n\n\t\n\t\n\t\n\n<code code=\"260010\"> \n\t\n\t\n\t\n\n\n\t\n\n\t\n\t\n\n\n\n\n\n\t\n\t\n\t\n\t\n\n\t\n\n\t\n\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\n<name>\t\n\tPrice
+        index of input in agriculture - general                                                                                                                                                        \n</name>\n\n\n\t\n\t\t\n\t\n\n\n\t\n
+        \     \t \n\t  \n\t<percent>\n\t\t0.4 \n\t</percent>\n\n\t\n\t\n\t\n\t\n\n\n\n\n\n\n\n\t\t\n\t\n\n\n\n\n
+        \  \n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\n\t\t\t\t\t\n\t\n\t\t<index
+        base=\"Average 2000 &#x200E; \">\n\t\t\t169.2\n\t\t</index>\n\t\n  \t\t\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 1986\" chainingCoefficient=\"3.987\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t674.6004\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t
+        \ \t\t\n\t\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"1976 1975\" chainingCoefficient=\"2909\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t1962412.5636\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t\n</code>\n\n\n\n\n\t
+        \ \t\n\n\t\n\t\n\t\n\n<code code=\"440010\"> \n\t\n\t\n\t\n\n\n\t\n\n\t\n\t\n\n\n\n\n\n\t\n\t\n\t\n\t\n\n\t\n\n\t\n\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\n<name>\t\n\tIndex
+        of input prices in buses - general (excl. housing services)                                                                                                                              \n</name>\n\n\n\t\n\t\t\n\t\n\n\n\t\n
+        \     \t \n\t  \n\t<percent>\n\t\t2.1 \n\t</percent>\n\n\t\n\t\n\t\n\t\n\n\n\n\n\n\n\n\t\t\n\t\n\n\n\n\n
+        \  \n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\n\t\t\t\t\t\n\t\n\t\t<index
+        base=\"January 2007 &#x200E; \">\n\t\t\t137.2\n\t\t</index>\n\t\n  \t\t\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"October-December  1993\" chainingCoefficient=\"2.410\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t330.652\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t\n</code>\n\n\n\n\n\t
+        \ \t\n\n\t\n\t\n\t\n\n<code code=\"431010\"> \n\t\n\t\n\t\n\n\n\t\n\n\t\n\t\n\n\n\n\n\n\t\n\t\n\t\n\t\n\n\t\n\n\t\n\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\n<name>\t\n\tIndex
+        of input prices in buses - Concessionaires (excl. housing services)                                                                                                                   \n</name>\n\n\n\t\n\t\t\n\t\n\n\n\t\n
+        \     \t \n\t  \n\t<percent>\n\t\t2.4 \n\t</percent>\n\n\t\n\t\n\t\n\t\n\n\n\n\n\n\n\n\t\t\n\t\n\n\n\n\n
+        \  \n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\n\t\t\t\t\t\n\t\n\t\t<index
+        base=\"January 2007 &#x200E; \">\n\t\t\t147.1\n\t\t</index>\n\t\n  \t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t\n</code>\n\n\n\n\n</date>\n\n\t\n\n\t\n\n\t\t\n\t\t\n\t\n\t\n\t\n\t\n\t\n\n\t\n\t\n\t\n\n<date
+        year=\" 2012 \" month=\"February\">\n\n\n\n\n\n\n\n\n\n\t  \t\n\n\t\n\t\n\t\n\n<code
+        code=\"120010\"> \n\t\n\t\n\t\n\n\n\t\n\n\t\n\t\n\n\n\n\n\n\t\n\t\n\t\n\t\n\n\t\n\n\t\n\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\n<name>\t\n\tConsumer
+        Price Index - General                                                                                                                                                                       \n</name>\n\n\n\t\n\t\t\n\t\n\n\n\t\n
+        \     \t \n\t  \n\t<percent>\n\t\t0.0 \n\t</percent>\n\n\t\n\t\n\t\n\t\n\n\n\n\n\n\n\n\t\t\n\t\n\n\n\n\n
+        \  \n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\n\t\t\t\t\t\n\t\n\t\t<index
+        base=\"Average 2010 &#x200E; \">\n\t\t\t104.0\n\t\t</index>\n\t\n  \t\t\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 2008\" chainingCoefficient=\"1.061\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t110.344\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 2006\" chainingCoefficient=\"1.051\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t115.971544\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 2002\" chainingCoefficient=\"1.038\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t120.3784627\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 2000\" chainingCoefficient=\"1.068\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t128.5641981\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 1998\" chainingCoefficient=\"1.064\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t136.7923068\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 1993\" chainingCoefficient=\"1.581\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t216.2686371\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 1987\" chainingCoefficient=\"2.421\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t523.5863704\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 1985\" chainingCoefficient=\"1.775\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t929.3658074\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t
+        \ \t\t\n\t\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 1980\" chainingCoefficient=\"225\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t209107.3066603\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 1976\" chainingCoefficient=\"8.349\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t1745836.9033072\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 1969\" chainingCoefficient=\"4.112\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t7178881.3463993\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 1964\" chainingCoefficient=\"1.237\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t8880276.2254959\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"January 1959\" chainingCoefficient=\"1.347\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t11961732.075743\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"September 1951\" chainingCoefficient=\"2.753\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t32930648.4045204\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t\n</code>\n\n\n\n\n\t
+        \ \t\n\n\t\n\t\n\t\n\n<code code=\"120020\"> \n\t\n\t\n\t\n\n\n\t\n\n\t\n\t\n\n\n\n\n\n\t\n\t\n\t\n\t\n\n\t\n\n\t\n\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\n<name>\t\n\tThe
+        index, excluding vegetables and fruit                                                                                                                                                            \n</name>\n\n\n\t\n\t\t\n\t\n\n\n\t\n
+        \     \t \n\t  \n\t<percent>\n\t\t-0.1 \n\t</percent>\n\n\t\n\t\n\t\n\t\n\n\n\n\n\n\n\n\t\t\n\t\n\n\n\n\n
+        \  \n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\n\t\t\t\t\t\n\t\n\t\t<index
+        base=\"Average 2010 &#x200E; \">\n\t\t\t104.1\n\t\t</index>\n\t\n  \t\t\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 2008\" chainingCoefficient=\"1.062\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t110.5542\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 2006\" chainingCoefficient=\"1.046\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t115.6396932\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 2002\" chainingCoefficient=\"1.037\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t119.9183618\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 2000\" chainingCoefficient=\"1.068\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t128.0728105\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 1998\" chainingCoefficient=\"1.064\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t136.2694703\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 1993\" chainingCoefficient=\"1.587\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t216.2596494\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 1987\" chainingCoefficient=\"2.474\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t535.0263726\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 1985\" chainingCoefficient=\"1.749\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t935.7611257\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t
+        \ \t\t\n\t\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 1980\" chainingCoefficient=\"225.9\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t211388.4382995\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t\n</code>\n\n\n\n\n\t
+        \ \t\n\n\t\n\t\n\t\n\n<code code=\"110040\"> \n\t\n\t\n\t\n\n\n\t\n\n\t\n\t\n\n\n\n\n\n\t\n\t\n\t\n\t\n\n\t\n\n\t\n\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\n<name>\t\n\tThe
+        index, excluding housing                                                                                                                                                                         \n</name>\n\n\n\t\n\t\t\n\t\n\n\n\t\n
+        \     \t \n\t  \n\t<percent>\n\t\t0.0 \n\t</percent>\n\n\t\n\t\n\t\n\t\n\n\n\n\n\n\n\n\t\t\n\t\n\n\n\n\n
+        \  \n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\n\t\t\t\t\t\n\t\n\t\t<index
+        base=\"Average 2010 &#x200E; \">\n\t\t\t102.8\n\t\t</index>\n\t\n  \t\t\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 2008\" chainingCoefficient=\"1.030\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t105.884\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 2006\" chainingCoefficient=\"1.062\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t112.448808\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 2002\" chainingCoefficient=\"1.068\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t120.0953269\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 2000\" chainingCoefficient=\"1.045\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t125.4996167\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 1998\" chainingCoefficient=\"1.080\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t135.539586\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 1993\" chainingCoefficient=\"1.493\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t202.3606019\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 1987\" chainingCoefficient=\"2.184\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t441.9555545\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 1985\" chainingCoefficient=\"1.841\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t813.6401759\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t
+        \ \t\t\n\t\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 1980\" chainingCoefficient=\"214.9\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t174851.2737905\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t\n</code>\n\n\n\n\n\t
+        \ \t\n\n\t\n\t\n\t\n\n<code code=\"120030\"> \n\t\n\t\n\t\n\n\n\t\n\n\t\n\t\n\n\n\n\n\n\t\n\t\n\t\n\t\n\n\t\n\n\t\n\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\n<name>\t\n\tThe
+        index, excluding vegetables, fruit and housing                                                                                                                                                \n</name>\n\n\n\t\n\t\t\n\t\n\n\n\t\n
+        \     \t \n\t  \n\t<percent>\n\t\t-0.1 \n\t</percent>\n\n\t\n\t\n\t\n\t\n\n\n\n\n\n\n\n\t\t\n\t\n\n\n\n\n
+        \  \n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\n\t\t\t\t\t\n\t\n\t\t<index
+        base=\"Average 2010 &#x200E; \">\n\t\t\t102.9\n\t\t</index>\n\t\n  \t\t\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 2008\" chainingCoefficient=\"1.029\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t105.8841\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 2006\" chainingCoefficient=\"1.055\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t111.7077255\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 2002\" chainingCoefficient=\"1.069\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t119.4155586\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 2000\" chainingCoefficient=\"1.044\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t124.6698431\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 1998\" chainingCoefficient=\"1.081\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t134.7681004\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 1993\" chainingCoefficient=\"1.496\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t201.6130782\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 1987\" chainingCoefficient=\"2.229\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t449.3955514\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 1985\" chainingCoefficient=\"1.811\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t813.8553436\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t
+        \ \t\t\n\t\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 1980\" chainingCoefficient=\"215.2\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t175141.6699414\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t\n</code>\n\n\n\n\n\t
+        \ \t\n\n\t\n\t\n\t\n\n<code code=\"110045\"> \n\t\n\t\n\t\n\n\n\t\n\n\t\n\t\n\n\n\n\n\n\t\n\t\n\t\n\t\n\n\t\n\n\t\n\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\n<name>\t\n\tThe
+        index, excluding energy                                                                                                                                                               \n</name>\n\n\n\t\n\t\t\n\t\n\n\n\t\n
+        \     \t \n\t  \n\t<percent>\n\t\t-0.1 \n\t</percent>\n\n\t\n\t\n\t\n\t\n\n\n\n\n\n\n\n\t\t\n\t\n\n\n\n\n
+        \  \n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\n\t\t\t\t\t\n\t\n\t\t<index
+        base=\"Average 2010 &#x200E; \">\n\t\t\t103.3\n\t\t</index>\n\t\n  \t\t\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 2008\" chainingCoefficient=\"1.067\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t110.2211\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 2006\" chainingCoefficient=\"1.046\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t115.2912706\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t\n</code>\n\n\n\n\n\t
+        \ \t\n\n\t\n\t\n\t\n\n<code code=\"170010\"> \n\t\n\t\n\t\n\n\n\t\n\n\t\n\t\n\n\n\n\n\n\t\n\t\n\t\n\t\n\n\t\n\n\t\n\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\n<name>\t\n\tPrice
+        index of manufacturing output - general                                                                                                                                                     \n</name>\n\n\n\t\n\t\t\n\t\n\n\n\t\n
+        \     \t \n\t  \n\t<percent>\n\t\t0.7 \n\t</percent>\n\n\t\n\t\n\t\n\t\n\n\n\n\n\n\n\n\t\t\n\t\n\n\n\n\n
+        \  \n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\n\t\t\t\t\t\n\t\n\t\t<index
+        base=\"Average 2005 &#x200E; \">\n\t\t\t128.3\n\t\t</index>\n\t\n  \t\t\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 1994\" chainingCoefficient=\"1.791\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t229.7853\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t\n</code>\n\n\n\n\n\t
+        \ \t\n\n\t\n\t\n\t\n\n<code code=\"170020\"> \n\t\n\t\n\t\n\n\n\t\n\n\t\n\t\n\n\n\n\n\n\t\n\t\n\t\n\t\n\n\t\n\n\t\n\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\n<name>\t\n\tThe
+        index, excluding fuel                                                                                                                                                                            \n</name>\n\n\n\t\n\t\t\n\t\n\n\n\t\n
+        \     \t \n\t  \n\t<percent>\n\t\t-0.1 \n\t</percent>\n\n\t\n\t\n\t\n\t\n\n\n\n\n\n\n\n\t\t\n\t\n\n\n\n\n
+        \  \n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\n\t\t\t\t\t\n\t\n\t\t<index
+        base=\"Average 2005 &#x200E; \">\n\t\t\t122.7\n\t\t</index>\n\t\n  \t\t\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 1994\" chainingCoefficient=\"1.706\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t209.3262\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 1988\" chainingCoefficient=\"2.015\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t421.792293\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t
+        \ \t\t\n\t\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 1977\" chainingCoefficient=\"2910.1\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t1227457.7518593\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t\n</code>\n\n\n\n\n\t
+        \ \t\n\n\t\n\t\n\t\n\n<code code=\"200010\"> \n\t\n\t\n\t\n\n\n\t\n\n\t\n\t\n\n\n\n\n\n\t\n\t\n\t\n\t\n\n\t\n\n\t\n\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\n<name>\t\n\tPrice
+        index of input in residential building - general                                                                                                                                            \n</name>\n\n\n\t\n\t\t\n\t\n\n\n\t\n
+        \     \t \n\t  \n\t<percent>\n\t\t0.5 \n\t</percent>\n\n\t\n\t\n\t\n\t\n\n\n\n\n\n\n\n\t\t\n\t\n\n\n\n\n
+        \  \n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\n\t\t\t\t\t\n\t\n\t\t<index
+        base=\"July 2011 &#x200E; \">\n\t\t\t101.6\n\t\t</index>\n\t\n  \t\t\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"January 2004\" chainingCoefficient=\"1.323\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t134.4168\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"January 1992\" chainingCoefficient=\"2.048\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t275.2856064\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"October 1983\" chainingCoefficient=\"49.091\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t13514.0457038\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"April 1975\" chainingCoefficient=\"176.512\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t2385391.235266\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 1968\" chainingCoefficient=\"3.434\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t8191433.5019036\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"January 1964\" chainingCoefficient=\"1.259\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t10313014.7788966\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"July 1950\" chainingCoefficient=\"6.680\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t68890938.7230293\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t\n</code>\n\n\n\n\n\t
+        \ \t\n\n\t\n\t\n\t\n\n<code code=\"800010\"> \n\t\n\t\n\t\n\n\n\t\n\n\t\n\t\n\n\n\n\n\n\t\n\t\n\t\n\t\n\n\t\n\n\t\n\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\n<name>\t\n\tPrice
+        Index of Input in Commercial and Office Building - General                                                                                                                                     \n</name>\n\n\n\t\n\t\t\n\t\n\n\n\t\n
+        \     \t \n\t  \n\t<percent>\n\t\t0.3 \n\t</percent>\n\n\t\n\t\n\t\n\t\n\n\n\n\n\n\n\n\t\t\n\t\n\n\n\n\n
+        \  \n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\n\t\t\t\t\t\n\t\n\t\t<index
+        base=\"January 2012 &#x200E; \">\n\t\t\t100.3\n\t\t</index>\n\t\n  \t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t\n</code>\n\n\n\n\n\t
+        \ \t\n\n\t\n\t\n\t\n\n<code code=\"240010\"> \n\t\n\t\n\t\n\n\n\t\n\n\t\n\t\n\n\n\n\n\n\t\n\t\n\t\n\t\n\n\t\n\n\t\n\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\n<name>\t\n\tPaving
+        and bridging Input price index - general                                                                                                                                                      \n</name>\n\n\n\t\n\t\t\n\t\n\n\n\t\n
+        \     \t \n\t  \n\t<percent>\n\t\t0.1 \n\t</percent>\n\n\t\n\t\n\t\n\t\n\n\n\n\n\n\n\n\t\t\n\t\n\n\n\n\n
+        \  \n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\n\t\t\t\t\t\n\t\n\t\t<index
+        base=\"January 2010 &#x200E; \">\n\t\t\t113.1\n\t\t</index>\n\t\n  \t\t\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"January 1996\" chainingCoefficient=\"2.262\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t255.8322\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t
+        \ \t\t\n\t\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"May 1981\" chainingCoefficient=\"468.39\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t119829.244158\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 1972\" chainingCoefficient=\"82.016\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t9827915.2888625\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"January 1966\" chainingCoefficient=\"1.542\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t15154645.375426\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t\n</code>\n\n\n\n\n\t
+        \ \t\n\n\t\n\t\n\t\n\n<code code=\"260010\"> \n\t\n\t\n\t\n\n\n\t\n\n\t\n\t\n\n\n\n\n\n\t\n\t\n\t\n\t\n\n\t\n\n\t\n\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\n<name>\t\n\tPrice
+        index of input in agriculture - general                                                                                                                                                        \n</name>\n\n\n\t\n\t\t\n\t\n\n\n\t\n
+        \     \t \n\t  \n\t<percent>\n\t\t0.4 \n\t</percent>\n\n\t\n\t\n\t\n\t\n\n\n\n\n\n\n\n\t\t\n\t\n\n\n\n\n
+        \  \n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\n\t\t\t\t\t\n\t\n\t\t<index
+        base=\"Average 2000 &#x200E; \">\n\t\t\t168.6\n\t\t</index>\n\t\n  \t\t\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 1986\" chainingCoefficient=\"3.987\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t672.2082\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t
+        \ \t\t\n\t\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"1976 1975\" chainingCoefficient=\"2909\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t1955453.6538\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t\n</code>\n\n\n\n\n\t
+        \ \t\n\n\t\n\t\n\t\n\n<code code=\"440010\"> \n\t\n\t\n\t\n\n\n\t\n\n\t\n\t\n\n\n\n\n\n\t\n\t\n\t\n\t\n\n\t\n\n\t\n\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\n<name>\t\n\tIndex
+        of input prices in buses - general (excl. housing services)                                                                                                                              \n</name>\n\n\n\t\n\t\t\n\t\n\n\n\t\n
+        \     \t \n\t  \n\t<percent>\n\t\t0.7 \n\t</percent>\n\n\t\n\t\n\t\n\t\n\n\n\n\n\n\n\n\t\t\n\t\n\n\n\n\n
+        \  \n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\n\t\t\t\t\t\n\t\n\t\t<index
+        base=\"January 2007 &#x200E; \">\n\t\t\t134.4\n\t\t</index>\n\t\n  \t\t\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"October-December  1993\" chainingCoefficient=\"2.410\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t323.904\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t\n</code>\n\n\n\n\n\t
+        \ \t\n\n\t\n\t\n\t\n\n<code code=\"431010\"> \n\t\n\t\n\t\n\n\n\t\n\n\t\n\t\n\n\n\n\n\n\t\n\t\n\t\n\t\n\n\t\n\n\t\n\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\n<name>\t\n\tIndex
+        of input prices in buses - Concessionaires (excl. housing services)                                                                                                                   \n</name>\n\n\n\t\n\t\t\n\t\n\n\n\t\n
+        \     \t \n\t  \n\t<percent>\n\t\t0.4 \n\t</percent>\n\n\t\n\t\n\t\n\t\n\n\n\n\n\n\n\n\t\t\n\t\n\n\n\n\n
+        \  \n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\n\t\t\t\t\t\n\t\n\t\t<index
+        base=\"January 2007 &#x200E; \">\n\t\t\t143.7\n\t\t</index>\n\t\n  \t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t\n</code>\n\n\n\n\n</date>\n\n\t\n\n\t\n\n\t\t\n\t\t\n\t\n\t\n\t\n\t\n\t\n\n\t\n\t\n\t\n\n<date
+        year=\" 2012 \" month=\"January\">\n\n\n\n\n\n\n\n\n\n\t  \t\n\n\t\n\t\n\t\n\n<code
+        code=\"120010\"> \n\t\n\t\n\t\n\n\n\t\n\n\t\n\t\n\n\n\n\n\n\t\n\t\n\t\n\t\n\n\t\n\n\t\n\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\n<name>\t\n\tConsumer
+        Price Index - General                                                                                                                                                                       \n</name>\n\n\n\t\n\t\t\n\t\n\n\n\t\n
+        \     \t \n\t  \n\t<percent>\n\t\t0.0 \n\t</percent>\n\n\t\n\t\n\t\n\t\n\n\n\n\n\n\n\n\t\t\n\t\n\n\n\n\n
+        \  \n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\n\t\t\t\t\t\n\t\n\t\t<index
+        base=\"Average 2010 &#x200E; \">\n\t\t\t104.0\n\t\t</index>\n\t\n  \t\t\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 2008\" chainingCoefficient=\"1.061\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t110.344\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 2006\" chainingCoefficient=\"1.051\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t115.971544\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 2002\" chainingCoefficient=\"1.038\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t120.3784627\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 2000\" chainingCoefficient=\"1.068\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t128.5641981\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 1998\" chainingCoefficient=\"1.064\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t136.7923068\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 1993\" chainingCoefficient=\"1.581\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t216.2686371\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 1987\" chainingCoefficient=\"2.421\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t523.5863704\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 1985\" chainingCoefficient=\"1.775\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t929.3658074\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t
+        \ \t\t\n\t\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 1980\" chainingCoefficient=\"225\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t209107.3066603\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 1976\" chainingCoefficient=\"8.349\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t1745836.9033072\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 1969\" chainingCoefficient=\"4.112\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t7178881.3463993\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 1964\" chainingCoefficient=\"1.237\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t8880276.2254959\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"January 1959\" chainingCoefficient=\"1.347\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t11961732.075743\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"September 1951\" chainingCoefficient=\"2.753\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t32930648.4045204\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t\n</code>\n\n\n\n\n\t
+        \ \t\n\n\t\n\t\n\t\n\n<code code=\"120020\"> \n\t\n\t\n\t\n\n\n\t\n\n\t\n\t\n\n\n\n\n\n\t\n\t\n\t\n\t\n\n\t\n\n\t\n\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\n<name>\t\n\tThe
+        index, excluding vegetables and fruit                                                                                                                                                            \n</name>\n\n\n\t\n\t\t\n\t\n\n\n\t\n
+        \     \t \n\t  \n\t<percent>\n\t\t0.0 \n\t</percent>\n\n\t\n\t\n\t\n\t\n\n\n\n\n\n\n\n\t\t\n\t\n\n\n\n\n
+        \  \n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\n\t\t\t\t\t\n\t\n\t\t<index
+        base=\"Average 2010 &#x200E; \">\n\t\t\t104.2\n\t\t</index>\n\t\n  \t\t\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 2008\" chainingCoefficient=\"1.062\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t110.6604\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 2006\" chainingCoefficient=\"1.046\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t115.7507784\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 2002\" chainingCoefficient=\"1.037\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t120.0335572\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 2000\" chainingCoefficient=\"1.068\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t128.1958391\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 1998\" chainingCoefficient=\"1.064\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t136.4003728\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 1993\" chainingCoefficient=\"1.587\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t216.4673916\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 1987\" chainingCoefficient=\"2.474\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t535.5403269\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 1985\" chainingCoefficient=\"1.749\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t936.6600317\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t
+        \ \t\t\n\t\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 1980\" chainingCoefficient=\"225.9\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t211591.5011605\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t\n</code>\n\n\n\n\n\t
+        \ \t\n\n\t\n\t\n\t\n\n<code code=\"110040\"> \n\t\n\t\n\t\n\n\n\t\n\n\t\n\t\n\n\n\n\n\n\t\n\t\n\t\n\t\n\n\t\n\n\t\n\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\n<name>\t\n\tThe
+        index, excluding housing                                                                                                                                                                         \n</name>\n\n\n\t\n\t\t\n\t\n\n\n\t\n
+        \     \t \n\t  \n\t<percent>\n\t\t-0.1 \n\t</percent>\n\n\t\n\t\n\t\n\t\n\n\n\n\n\n\n\n\t\t\n\t\n\n\n\n\n
+        \  \n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\n\t\t\t\t\t\n\t\n\t\t<index
+        base=\"Average 2010 &#x200E; \">\n\t\t\t102.8\n\t\t</index>\n\t\n  \t\t\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 2008\" chainingCoefficient=\"1.030\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t105.884\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 2006\" chainingCoefficient=\"1.062\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t112.448808\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 2002\" chainingCoefficient=\"1.068\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t120.0953269\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 2000\" chainingCoefficient=\"1.045\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t125.4996167\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 1998\" chainingCoefficient=\"1.080\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t135.539586\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 1993\" chainingCoefficient=\"1.493\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t202.3606019\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 1987\" chainingCoefficient=\"2.184\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t441.9555545\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 1985\" chainingCoefficient=\"1.841\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t813.6401759\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t
+        \ \t\t\n\t\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 1980\" chainingCoefficient=\"214.9\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t174851.2737905\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t\n</code>\n\n\n\n\n\t
+        \ \t\n\n\t\n\t\n\t\n\n<code code=\"120030\"> \n\t\n\t\n\t\n\n\n\t\n\n\t\n\t\n\n\n\n\n\n\t\n\t\n\t\n\t\n\n\t\n\n\t\n\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\n<name>\t\n\tThe
+        index, excluding vegetables, fruit and housing                                                                                                                                                \n</name>\n\n\n\t\n\t\t\n\t\n\n\n\t\n
+        \     \t \n\t  \n\t<percent>\n\t\t0.0 \n\t</percent>\n\n\t\n\t\n\t\n\t\n\n\n\n\n\n\n\n\t\t\n\t\n\n\n\n\n
+        \  \n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\n\t\t\t\t\t\n\t\n\t\t<index
+        base=\"Average 2010 &#x200E; \">\n\t\t\t103.0\n\t\t</index>\n\t\n  \t\t\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 2008\" chainingCoefficient=\"1.029\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t105.987\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 2006\" chainingCoefficient=\"1.055\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t111.816285\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 2002\" chainingCoefficient=\"1.069\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t119.5316087\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 2000\" chainingCoefficient=\"1.044\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t124.7909994\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 1998\" chainingCoefficient=\"1.081\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t134.8990704\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 1993\" chainingCoefficient=\"1.496\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t201.8090093\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 1987\" chainingCoefficient=\"2.229\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t449.8322818\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 1985\" chainingCoefficient=\"1.811\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t814.6462623\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t
+        \ \t\t\n\t\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 1980\" chainingCoefficient=\"215.2\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t175311.8756459\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t\n</code>\n\n\n\n\n\t
+        \ \t\n\n\t\n\t\n\t\n\n<code code=\"110045\"> \n\t\n\t\n\t\n\n\n\t\n\n\t\n\t\n\n\n\n\n\n\t\n\t\n\t\n\t\n\n\t\n\n\t\n\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\n<name>\t\n\tThe
+        index, excluding energy                                                                                                                                                               \n</name>\n\n\n\t\n\t\t\n\t\n\n\n\t\n
+        \     \t \n\t  \n\t<percent>\n\t\t-0.1 \n\t</percent>\n\n\t\n\t\n\t\n\t\n\n\n\n\n\n\n\n\t\t\n\t\n\n\n\n\n
+        \  \n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\n\t\t\t\t\t\n\t\n\t\t<index
+        base=\"Average 2010 &#x200E; \">\n\t\t\t103.4\n\t\t</index>\n\t\n  \t\t\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 2008\" chainingCoefficient=\"1.067\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t110.3278\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 2006\" chainingCoefficient=\"1.046\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t115.4028788\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t\n</code>\n\n\n\n\n\t
+        \ \t\n\n\t\n\t\n\t\n\n<code code=\"170010\"> \n\t\n\t\n\t\n\n\n\t\n\n\t\n\t\n\n\n\n\n\n\t\n\t\n\t\n\t\n\n\t\n\n\t\n\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\n<name>\t\n\tPrice
+        index of manufacturing output - general                                                                                                                                                     \n</name>\n\n\n\t\n\t\t\n\t\n\n\n\t\n
+        \     \t \n\t  \n\t<percent>\n\t\t0.2 \n\t</percent>\n\n\t\n\t\n\t\n\t\n\n\n\n\n\n\n\n\t\t\n\t\n\n\n\n\n
+        \  \n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\n\t\t\t\t\t\n\t\n\t\t<index
+        base=\"Average 2005 &#x200E; \">\n\t\t\t127.4\n\t\t</index>\n\t\n  \t\t\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 1994\" chainingCoefficient=\"1.791\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t228.1734\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t\n</code>\n\n\n\n\n\t
+        \ \t\n\n\t\n\t\n\t\n\n<code code=\"170020\"> \n\t\n\t\n\t\n\n\n\t\n\n\t\n\t\n\n\n\n\n\n\t\n\t\n\t\n\t\n\n\t\n\n\t\n\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\n<name>\t\n\tThe
+        index, excluding fuel                                                                                                                                                                            \n</name>\n\n\n\t\n\t\t\n\t\n\n\n\t\n
+        \     \t \n\t  \n\t<percent>\n\t\t0.5 \n\t</percent>\n\n\t\n\t\n\t\n\t\n\n\n\n\n\n\n\n\t\t\n\t\n\n\n\n\n
+        \  \n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\n\t\t\t\t\t\n\t\n\t\t<index
+        base=\"Average 2005 &#x200E; \">\n\t\t\t122.8\n\t\t</index>\n\t\n  \t\t\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 1994\" chainingCoefficient=\"1.706\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t209.4968\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 1988\" chainingCoefficient=\"2.015\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t422.136052\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t
+        \ \t\t\n\t\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 1977\" chainingCoefficient=\"2910.1\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t1228458.1249252\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t\n</code>\n\n\n\n\n\t
+        \ \t\n\n\t\n\t\n\t\n\n<code code=\"200010\"> \n\t\n\t\n\t\n\n\n\t\n\n\t\n\t\n\n\n\n\n\n\t\n\t\n\t\n\t\n\n\t\n\n\t\n\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\n<name>\t\n\tPrice
+        index of input in residential building - general                                                                                                                                            \n</name>\n\n\n\t\n\t\t\n\t\n\n\n\t\n
+        \     \t \n\t  \n\t<percent>\n\t\t0.3 \n\t</percent>\n\n\t\n\t\n\t\n\t\n\n\n\n\n\n\n\n\t\t\n\t\n\n\n\n\n
+        \  \n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\n\t\t\t\t\t\n\t\n\t\t<index
+        base=\"July 2011 &#x200E; \">\n\t\t\t101.1\n\t\t</index>\n\t\n  \t\t\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"January 2004\" chainingCoefficient=\"1.323\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t133.7553\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"January 1992\" chainingCoefficient=\"2.048\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t273.9308544\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"October 1983\" chainingCoefficient=\"49.091\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t13447.5395734\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"April 1975\" chainingCoefficient=\"176.512\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t2373652.1051712\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 1968\" chainingCoefficient=\"3.434\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t8151121.329158\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"January 1964\" chainingCoefficient=\"1.259\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t10262261.7534099\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"July 1950\" chainingCoefficient=\"6.680\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t68551908.5127782\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t\n</code>\n\n\n\n\n\t
+        \ \t\n\n\t\n\t\n\t\n\n<code code=\"800010\"> \n\t\n\t\n\t\n\n\n\t\n\n\t\n\t\n\n\n\n\n\n\t\n\t\n\t\n\t\n\n\t\n\n\t\n\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\n<name>\t\n\tPrice
+        Index of Input in Commercial and Office Building - General                                                                                                                                     \n</name>\n\n\n\t\n\t\t\n\t\n\n\n\t\n\n\t\n\t\n\t\n\t\n\n\n\n\n\n\n\n\t\t\n\t\n\n\n\n\n
+        \  \n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\n\t\t\t\t\t\n\t\n\t\t<index
+        base=\"January 2012 &#x200E; \">\n\t\t\t100.0\n\t\t</index>\n\t\n  \t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t\n</code>\n\n\n\n\n\t
+        \ \t\n\n\t\n\t\n\t\n\n<code code=\"240010\"> \n\t\n\t\n\t\n\n\n\t\n\n\t\n\t\n\n\n\n\n\n\t\n\t\n\t\n\t\n\n\t\n\n\t\n\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\n<name>\t\n\tPaving
+        and bridging Input price index - general                                                                                                                                                      \n</name>\n\n\n\t\n\t\t\n\t\n\n\n\t\n
+        \     \t \n\t  \n\t<percent>\n\t\t1.1 \n\t</percent>\n\n\t\n\t\n\t\n\t\n\n\n\n\n\n\n\n\t\t\n\t\n\n\n\n\n
+        \  \n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\n\t\t\t\t\t\n\t\n\t\t<index
+        base=\"January 2010 &#x200E; \">\n\t\t\t113.0\n\t\t</index>\n\t\n  \t\t\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"January 1996\" chainingCoefficient=\"2.262\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t255.606\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t
+        \ \t\t\n\t\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"May 1981\" chainingCoefficient=\"468.39\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t119723.29434\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 1972\" chainingCoefficient=\"82.016\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t9819225.7085894\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"January 1966\" chainingCoefficient=\"1.542\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t15141246.0426449\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t\n</code>\n\n\n\n\n\t
+        \ \t\n\n\t\n\t\n\t\n\n<code code=\"260010\"> \n\t\n\t\n\t\n\n\n\t\n\n\t\n\t\n\n\n\n\n\n\t\n\t\n\t\n\t\n\n\t\n\n\t\n\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\n<name>\t\n\tPrice
+        index of input in agriculture - general                                                                                                                                                        \n</name>\n\n\n\t\n\t\t\n\t\n\n\n\t\n
+        \     \t \n\t  \n\t<percent>\n\t\t0.6 \n\t</percent>\n\n\t\n\t\n\t\n\t\n\n\n\n\n\n\n\n\t\t\n\t\n\n\n\n\n
+        \  \n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\n\t\t\t\t\t\n\t\n\t\t<index
+        base=\"Average 2000 &#x200E; \">\n\t\t\t168.0\n\t\t</index>\n\t\n  \t\t\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"Average 1986\" chainingCoefficient=\"3.987\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t669.816\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t
+        \ \t\t\n\t\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"1976 1975\" chainingCoefficient=\"2909\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t1948494.744\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t\n</code>\n\n\n\n\n\t
+        \ \t\n\n\t\n\t\n\t\n\n<code code=\"440010\"> \n\t\n\t\n\t\n\n\n\t\n\n\t\n\t\n\n\n\n\n\n\t\n\t\n\t\n\t\n\n\t\n\n\t\n\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\n<name>\t\n\tIndex
+        of input prices in buses - general (excl. housing services)                                                                                                                              \n</name>\n\n\n\t\n\t\t\n\t\n\n\n\t\n
+        \     \t \n\t  \n\t<percent>\n\t\t-0.6 \n\t</percent>\n\n\t\n\t\n\t\n\t\n\n\n\n\n\n\n\n\t\t\n\t\n\n\n\n\n
+        \  \n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\n\t\t\t\t\t\n\t\n\t\t<index
+        base=\"January 2007 &#x200E; \">\n\t\t\t133.5\n\t\t</index>\n\t\n  \t\t\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\n\t\t\t\n\t\t\t\t<index
+        base=\"October-December  1993\" chainingCoefficient=\"2.410\">\t\t\n\t\t\t\t\t\n\t\t\t\t\t321.735\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t</index>\n\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t\n</code>\n\n\n\n\n\t
+        \ \t\n\n\t\n\t\n\t\n\n<code code=\"431010\"> \n\t\n\t\n\t\n\n\n\t\n\n\t\n\t\n\n\n\n\n\n\t\n\t\n\t\n\t\n\n\t\n\n\t\n\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\t\t\n\t\n\n<name>\t\n\tIndex
+        of input prices in buses - Concessionaires (excl. housing services)                                                                                                                   \n</name>\n\n\n\t\n\t\t\n\t\n\n\n\t\n
+        \     \t \n\t  \n\t<percent>\n\t\t-0.6 \n\t</percent>\n\n\t\n\t\n\t\n\t\n\n\n\n\n\n\n\n\t\t\n\t\n\n\n\n\n
+        \  \n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\n\t\t\t\t\t\n\t\n\t\t<index
+        base=\"January 2007 &#x200E; \">\n\t\t\t143.1\n\t\t</index>\n\t\n  \t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t\n</code>\n\n\n\n\n</date>\n\n\t\n\n\t\n\n\n\n</indices>\n\n\n"
+    http_version: '1.1'
+  recorded_at: Sat, 05 May 2012 09:23:59 GMT
+recorded_with: VCR 2.0.1
