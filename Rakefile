@@ -17,8 +17,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "madad"
   gem.homepage = "http://github.com/elentok/madad"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{gets the value of the madad from http://www.cbs.gov.il}
+  gem.description = %Q{gets the value of the madad from http://www.cbs.gov.il}
   gem.email = "3david@gmail.com"
   gem.authors = ["David Elentok"]
   # dependencies defined in Gemfile
@@ -29,11 +29,6 @@ require 'rspec/core'
 require 'rspec/core/rake_task'
 RSpec::Core::RakeTask.new(:spec) do |spec|
   spec.pattern = FileList['spec/**/*_spec.rb']
-end
-
-RSpec::Core::RakeTask.new(:rcov) do |spec|
-  spec.pattern = 'spec/**/*_spec.rb'
-  spec.rcov = true
 end
 
 task :default => :spec
