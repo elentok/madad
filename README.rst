@@ -8,7 +8,7 @@ from http://www.cbs.gov.il/reader/pirsum_madad/indices_eng.xml
 Usage
 =====
 
-.. code-block:: ruby
+::
 
   require 'madad'
   value = Madad.latest_value
