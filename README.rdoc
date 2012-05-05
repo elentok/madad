@@ -5,10 +5,10 @@ from http://www.cbs.gov.il/reader/pirsum_madad/indices_eng.xml
 
 == Usage
 
-<pre><code>
+<code>
 require 'madad'
 value = Madad.latest_value
-<code></pre>
+</code>
 
 == Contributing to madad
  
